@@ -16,14 +16,16 @@ site_ayala/
 │   └── script.js          # Fonctionnalités JavaScript
 │
 ├── images/                 # Dossier pour les images
-│   ├── custom/            # Images des créations custom
+│   ├── custom/            # Images des créations custom (anciennes)
+│   ├── vetements/         # Images de vêtements customisés
+│   ├── chaussures/        # Images de chaussures customisées
 │   ├── peinture-murale/   # Images des peintures murales
-│   └── peinture/          # Images des peintures sur toile
+│   └── tableau/           # Images des tableaux
 │
 ├── pages/                  # Pages secondaires
-│   ├── custom.html        # Page Custom
+│   ├── custom.html        # Page Custom (Vêtements et Chaussures)
 │   ├── peinture-murale.html  # Page Peinture Murale
-│   └── peinture.html      # Page Peinture
+│   └── tableau.html       # Page Tableaux
 │
 └── README.md              # Documentation du projet
 ```
@@ -37,8 +39,9 @@ site_ayala/
 - Formulaire de contact
 
 ### Page Custom (pages/custom.html)
-- Présentation des créations personnalisées
-- Galerie de projets custom
+- Section Vêtements : T-shirts, sweats, vestes, jeans...
+- Section Chaussures : Sneakers, Air Force, Converse, Vans...
+- Galeries distinctes pour chaque catégorie
 - Formulaire de devis
 
 ### Page Peinture Murale (pages/peinture-murale.html)
@@ -46,8 +49,8 @@ site_ayala/
 - Galerie de réalisations
 - Formulaire de devis
 
-### Page Peinture (pages/peinture.html)
-- Présentation des tableaux et toiles
+### Page Tableaux (pages/tableau.html)
+- Présentation des tableaux originaux
 - Galerie de la collection
 - Formulaire de contact
 
