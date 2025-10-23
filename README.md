@@ -23,7 +23,8 @@ site_ayala/
 │   └── tableau/           # Images des tableaux
 │
 ├── pages/                  # Pages secondaires
-│   ├── custom.html        # Page Custom (Vêtements et Chaussures)
+│   ├── vetements.html     # Page Vêtements Custom
+│   ├── chaussures.html    # Page Chaussures Custom
 │   ├── peinture-murale.html  # Page Peinture Murale
 │   └── tableau.html       # Page Tableaux
 │
@@ -38,11 +39,15 @@ site_ayala/
 - Galerie d'exemples
 - Formulaire de contact
 
-### Page Custom (pages/custom.html)
-- Section Vêtements : T-shirts, sweats, vestes, jeans...
-- Section Chaussures : Sneakers, Air Force, Converse, Vans...
-- Galeries distinctes pour chaque catégorie
-- Formulaire de devis
+### Page Vêtements (pages/vetements.html)
+- Customisation de vêtements : T-shirts, sweats, vestes, jeans...
+- Galerie de réalisations textiles
+- Formulaire de devis personnalisé
+
+### Page Chaussures (pages/chaussures.html)
+- Customisation de sneakers : Air Force, Converse, Vans, Jordan...
+- Galerie de créations sneakers
+- Formulaire de devis personnalisé
 
 ### Page Peinture Murale (pages/peinture-murale.html)
 - Présentation des fresques murales
