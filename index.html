@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayala - Création Artistique</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
+            <a href="#accueil" class="logo">Ayala Art</a>
+            <ul>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="pages/custom.html">Custom</a></li>
+                <li><a href="pages/peinture-murale.html">Peinture Murale</a></li>
+                <li><a href="pages/peinture.html">Peinture</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="accueil">
+        <h1>Créations Artistiques Uniques</h1>
+        <p>Transformez vos espaces avec des œuvres d'art personnalisées</p>
+        <a href="#contact" class="btn">Contactez-nous</a>
+    </section>
+
+    <!-- Section À propos -->
+    <section id="a-propos">
+        <div class="container">
+            <h2>À Propos</h2>
+            <div class="about-content">
+                <p>
+                    Bienvenue chez Ayala Art, votre partenaire créatif pour des œuvres d'art exceptionnelles. 
+                    Nous sommes passionnés par la transformation d'espaces ordinaires en lieux extraordinaires 
+                    grâce à nos créations artistiques sur mesure.
+                </p>
+                <p style="margin-top: 1.5rem;">
+                    Que vous recherchiez une peinture murale impressionnante, une toile personnalisée ou une 
+                    création artistique unique, notre équipe d'artistes talentueux est là pour donner vie à 
+                    vos idées les plus audacieuses.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galerie d'exemples -->
+    <section id="galerie">
+        <div class="container">
+            <h2>Nos Créations</h2>
+            <div class="gallery-grid">
+                <!-- Custom -->
+                <div class="gallery-item" id="custom">
+                    <div class="placeholder">Custom</div>
+                    <div class="gallery-overlay">
+                        <h3>Créations Custom</h3>
+                        <p>Œuvres personnalisées selon vos désirs</p>
+                    </div>
+                </div>
+
+                <!-- Peinture Murale -->
+                <div class="gallery-item" id="peinture-murale">
+                    <div class="placeholder">Peinture Murale</div>
+                    <div class="gallery-overlay">
+                        <h3>Peintures Murales</h3>
+                        <p>Fresques et décorations murales spectaculaires</p>
+                    </div>
+                </div>
+
+                <!-- Peinture -->
+                <div class="gallery-item" id="peinture">
+                    <div class="placeholder">Peinture</div>
+                    <div class="gallery-overlay">
+                        <h3>Peintures</h3>
+                        <p>Toiles et tableaux originaux</p>
+                    </div>
+                </div>
+
+                <!-- Exemples supplémentaires -->
+                <div class="gallery-item">
+                    <div class="placeholder">Art Abstrait</div>
+                    <div class="gallery-overlay">
+                        <h3>Art Abstrait</h3>
+                        <p>Compositions modernes et colorées</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item">
+                    <div class="placeholder">Portrait</div>
+                    <div class="gallery-overlay">
+                        <h3>Portraits</h3>
+                        <p>Portraits réalistes et expressifs</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item">
+                    <div class="placeholder">Street Art</div>
+                    <div class="gallery-overlay">
+                        <h3>Street Art</h3>
+                        <p>Art urbain et graffitis artistiques</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact">
+        <div class="container">
+            <h2>Contactez-nous</h2>
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="nom">Nom</label>
+                    <input type="text" id="nom" name="nom" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="sujet">Sujet</label>
+                    <input type="text" id="sujet" name="sujet" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <div style="text-align: center;">
+                    <button type="submit" class="submit-btn">Envoyer</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Ayala Art - Tous droits réservés</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
